@@ -2,21 +2,21 @@
 
 :root {
     --bg-color: #17153B;
-    --primary-color: #2E236C;
-    --secondary-color: #C8ACD6;
+    --primary-color: #C8ACD6;
+    --secondary-color:  #2E236C;
     --font: "Nunito Sans", sans-serif;
 }
 
 body {
     background-color: var(--bg-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
     margin: 0;
 }
 
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
 }
@@ -50,8 +50,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--secundary-color);
+    background-color: var(--primary-color);
     color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
 }
 
 
