@@ -31,14 +31,14 @@ async function quantidadeUsuariosPorRede() {
             tickfont: tickConfing,
             title: {
                 text: 'nomes das redes sociais',
-                font: getCSS('--secundary-color')
+                font: getCSS('--bg-color')
             }
         },
         yaxis: {
             tickfont: tickConfing,
             title: {
                 text: 'bilhôes de usuários ativos',
-                font: getCSS('--secundary-color')
+                font: getCSS('--bg-color')
             }
         },
     }
